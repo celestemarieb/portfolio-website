@@ -1,10 +1,8 @@
-body {
-    background-color: aquamarine;
-}
-
-@media screen and (mid-width: 600px {
-    body {
-        background-color: palegoldenrod;
-    }
-    
+/* CSS HEX */
+: :root {
+--pistachio: #92C775ff;
+--hunyadi-yellow: #F7AE31ff;
+--charcoal: #2C414Fff;
+--french-rose: #F74174ff;
+--ultra-pink: #F36BFAff;
 }
