@@ -1,21 +1,10 @@
 body {
-        font-family: "Roboto";
-        line-height: 1.5;
+    background-color: aquamarine;
+}
 
-        background-color: #EEEEE;
-        color: #203a8f; 
-
-        padding: 60px 64px 0;
+@media screen and (mid-width: 600px {
+    body {
+        background-color: palegoldenrod;
     }
-
-h2 {
-    font-size: 32px;
-    line-height: 1.2;
-    text-align:center;
-    }
-
-a  {
-    text-decoration: none;
-    color: #203a8f;
-    }
+    
 }
