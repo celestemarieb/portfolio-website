@@ -1,8 +1,101 @@
 /* CSS HEX */
-: :root {
---pistachio: #92C775ff;
---hunyadi-yellow: #F7AE31ff;
---charcoal: #2C414Fff;
---french-rose: #F74174ff;
---ultra-pink: #F36BFAff;
+:root {
+/* CSS HEX */
+--slate-gray: #6b717eff;
+--lavender-pink: #efaac4ff;
+--electric-blue: #53f4ffff;
+--misty-rose: #ffe8e1ff;
+--alabaster: #d4dccdff;
 }
+/* Fonts */
+.kdam-thmor pro-regular {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+/* Margin */
+* {
+    margin: 0;
+}
+/* Overall Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lavender-pink);
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: medium;
+    line-height: 1.5;
+}
+/* Header Styling */
+header {
+    background-color: var(--alabaster);
+    height: 25dvh;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: var(--charcoal);
+}
+header h1 {
+    float: left;
+    justify-content: left;
+    align-items: left;
+}
+/* Navigation Styling */
+header nav {
+    float: left;
+    justify-content: left;
+    align-items: left;
+    font-weight: bold;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color: var(--hunyadi-yellow);
+    color: var(--charcoal);
+    padding: 0.25em;
+    border: radius 0.5em;
+}
+
+nav > a:hover {
+    background-color: var(--hunyadi-yellow);
+    text-decoration: underline;
+}
+/* Main Styling */
+main {
+    min-height: 85dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+main > *{
+    margin: 1em;
+}
+
+main > img {
+    height: 20dvh;
+    width: 50dvw;
+    margin: 2em;
+    background-color:var(--french-rose) ;
+    color: var(--ultra-pink);
+    object-fit: cover;
+}
+/* Footer Styling */
+footer {
+    background-color: var(--ultra-pink);
+    height: 5dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Desktop View */
+/* @media screen and (min-width: 600px) {
+} */ 
+

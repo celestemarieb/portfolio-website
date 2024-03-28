@@ -1,0 +1,48 @@
+.articlePreview > img {
+    height: 20dvh;
+    border-radius: 2em;
+}
+
+.articlePreview {
+    max-width: 60dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    margin: 2em;
+    padding: 1em;
+    background-color: var(--french-rose);
+    border-radius: 2em;
+}
+
+.articlePreview > a {
+    background-color: var(--pistacho);
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.articlePreview > article {
+    display: flex;
+    column-gap: 2em;
+}
+
+.contentRow {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Desktop View */
+@media screen and (min-width: 600px) {
+    .contentRow {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .articlePreview {
+        width: 300dvh;
+        margin: 1em;
+    }
+}
