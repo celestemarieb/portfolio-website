@@ -1,12 +1,12 @@
 /* CSS HEX */
 :root {
-/* CSS HEX */
 --slate-gray: #6b717eff;
 --lavender-pink: #efaac4ff;
 --electric-blue: #53f4ffff;
 --misty-rose: #ffe8e1ff;
 --alabaster: #d4dccdff;
 }
+
 /* Fonts */
 .kdam-thmor pro-regular {
     font-family: "Kdam Thmor Pro", sans-serif;
@@ -19,7 +19,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Body Styling */
+/* Body */
 body {
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ body {
     font-size: medium;
     line-height: 1.5;
 }
-/* Header Styling */
+/* Header */
 .header {
     background-color: var(--alabaster);
     height: 10dvh;
@@ -42,7 +42,13 @@ body {
     color: var(--charcoal);
 }
 
-/* Navigation Styling */
+/* Logo */ 
+#logo {
+    font-size: 1.2em;
+    font-weight: 600;
+ }
+
+/* Navigation */
 nav {
     display:flex;
     justify-content: space-between;
@@ -55,12 +61,6 @@ nav a {
     text-decoration: none;
     color: black;
 }
-
-/* Logo Styling */ 
-#logo {
-    font-size: 1.2em;
-    font-weight: 600;
- }
 
 input[type="checkbox"]{
     appearance: none; 
@@ -87,7 +87,7 @@ ul a:hover {
     text-decoration: underline;
 }
 
-/* Mobile Navigation */
+/* Responsive/Mobile Navigation */
 
 @media screen and (max-width: 600px) {
     label {
@@ -119,9 +119,10 @@ ul a:hover {
     margin: auto 0;
     display: none;
     cursor: pointer;
+    font-weight: bolder;
 }
 
-/* Main Styling */
+/* Main */
 main {
     min-height: 85dvh;
     width: 100dvw;
@@ -143,6 +144,41 @@ main > img {
     object-fit: cover;
 }
 
+/* Call to Action */
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Form */
+
+form {
+    width: 100%;
+}
+
+/* Buttons */
+
+.button {
+    border-radius: 0em;
+    border: 1px solid;
+    transition-duration: 0.4s;
+    width: 100%;
+    background-color: var(--misty-rose);
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+    padding: 14px 40px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.button:hover {
+ background-color: var(--electric-blue) ;
+}
+
 /*.container { 
 
 }
@@ -150,7 +186,7 @@ main > img {
 .wrapper {
 
 }
-/* Footer Styling */
+/* Footer */
 footer {
     background-color: var(--misty-rose);
     height: 12dvh;
@@ -168,7 +204,5 @@ footer {
 .updateStatement {
 }
 
-/* Desktop View */
-/* @media screen and (min-width: 600px) {
-} */ 
+
 
