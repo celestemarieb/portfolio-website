@@ -22,9 +22,9 @@ buttons
 
 Home
 - About  
-- Projects 
+- Work (Projects) 
   - Project #1 
-- Blog
+- Writing (Blog)
     - Blog #1 
     - Blog #2 
     - Blog #3

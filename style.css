@@ -13,16 +13,18 @@
     font-weight: 400;
     font-style: normal;
   }  
-/* Margin */
+/* Overall */
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* Overall Styling */
+/* Body Styling */
 body {
     display: flex;
     flex-direction: column;
     background-color: var(--lavender-pink);
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: medium;
@@ -31,7 +33,7 @@ body {
 /* Header Styling */
 .header {
     background-color: var(--alabaster);
-    height: 12dvh;
+    height: 10dvh;
     width: 100%;
     text-align: right;
     display: flex;
@@ -40,37 +42,83 @@ body {
     color: var(--charcoal);
 }
 
-/* Logo Styling */ 
-.logo {
-    max-width: 300px;
-    display: flex;
-}
-
-
 /* Navigation Styling */
-header nav {
-    float: right;
-    justify-content: right;
-    align-items: right;
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     font-weight: lighter ;
+    padding: 1em;
 }
 
-/*.desktopNavigationItems {
-
-}
-*/
-
-nav > a {
+nav a {
     text-decoration: none;
-    background-color: var(--hunyadi-yellow);
-    color: var(--charcoal);
-    padding: 0.25em;
-    border: radius 0.5em;
+    color: black;
 }
 
-nav > a:hover {
-    background-color: var(--hunyadi-yellow);
+/* Logo Styling */ 
+#logo {
+    font-size: 1.2em;
+    font-weight: 600;
+ }
+
+input[type="checkbox"]{
+    appearance: none; 
+}
+
+label {
+    display:none;
+    cursor: pointer;
+}
+
+ul {
+    list-style:none;
+    display: flex;
+    gap: 0em;
+}
+
+ul a {
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover {
     text-decoration: underline;
+}
+
+/* Mobile Navigation */
+
+@media screen and (max-width: 600px) {
+    label {
+        display:block;
+    }
+    ul {
+        font-size: 1.2em;
+        position: absolute;
+        left:-100%;
+        flex-direction: column;
+        align-items:end;
+        justify-content: start;        
+        background-color: var(--electric-blue);
+        gap: 0em;
+        top: 60px;
+        width: 100%;
+        height: calc(100vh - 60px);
+        transition: 0.5s;
+    }
+    input[type="checkbox"]:checked ~ ul {
+        left:0;
+    }
+    ul a:hover {
+        background-color: (var(--electric-blue));
+    }
+}
+
+#plus-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
 }
 
 /* Main Styling */
@@ -104,12 +152,20 @@ main > img {
 }
 /* Footer Styling */
 footer {
-    background-color: var(--ultra-pink);
-    height: 5dvh;
+    background-color: var(--misty-rose);
+    height: 12dvh;
     width: 100dvw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2dvh;
+}
+
+/*.copyright {
+}
+
+.updateStatement {
 }
 
 /* Desktop View */
