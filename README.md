@@ -32,6 +32,8 @@ Home
     - Blog #5
 - Contact 
 
+![Portfolio Sitemap](./docs/portfolio.sitemap.png "Portfolio Sitemap")
+
 ### Wireframes 
 
 
@@ -45,3 +47,5 @@ This website is designed to showcase my skills, experience and interests to empl
 HTML
 CSS 
 Deployment Platform : Github Pages
+
+/discuss not using javascript  

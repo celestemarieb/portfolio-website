@@ -1,48 +1,67 @@
-.articlePreview > img {
-    height: 20dvh;
-    border-radius: 2em;
-}
+/* CSS HEX */
+:root {
+    --slate-gray: #6b717eff;
+    --lavender-pink: #efaac4ff;
+    --electric-blue: #53f4ffff;
+    --misty-rose: #ffe8e1ff;
+    --alabaster: #d4dccdff;
+    }
 
-.articlePreview {
-    max-width: 60dvw;
+* {
+    box-sizing: border-box;
+}
+.articlePreviewCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: var(--electric-blue);
+    max-width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 1em;
-    margin: 2em;
-    padding: 1em;
-    background-color: var(--french-rose);
-    border-radius: 2em;
+    justify-content:space-evenly;
+    align-items: stretch;
+    row-gap: 0em;
+    margin: 0.25em;
+    padding: 0.5em;
+    width: 50%;
+    flex:40%;
 }
-
-.articlePreview > a {
-    background-color: var(--pistacho);
-    padding: 1em;
-    border-radius: 2em;
-}
-
-.articlePreview > article {
+img {
+    max-width: 100%;
     display: flex;
-    column-gap: 2em;
+    justify-content: center;
+    object-fit: cover
 }
+
+.articlePreviewCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.articlePreviewText {
+    padding: 2dvh 16 dvh;
+}
+
+.button:hover {
+    background-color: var(--alabaster) ;
+   }
 
 .contentRow {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-/* Desktop View */
-@media screen and (min-width: 600px) {
+/* Responsive/Mobile View */
+@media screen and (max-width: 600px) {
     .contentRow {
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
-    .articlePreview {
-        width: 300dvh;
-        margin: 1em;
+    .articlePreviewCard {
+        margin: 0.25em;
+        flex: 50%;
     }
 }
