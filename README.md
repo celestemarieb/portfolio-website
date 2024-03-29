@@ -40,7 +40,7 @@ Home
 
 ### Target Audience 
 
-This website is designed to showcase my skills, experience and interests to employers. 
+This website is designed to showcase my skills, experience and interests. 
 
 ### Tech Stack (e.g. html, css, deployment platform, etc)
 
