@@ -236,7 +236,7 @@ footer {
     height: 12dvh;
     width: 100dvw;
     display: flex;
-    margin-top: auto;
+    margin-top: 1em;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 2dvh;
