@@ -30,6 +30,10 @@ h3 {
 h4 {
     font-size: x-small;
 }
+blockquote {
+    font-size: small;
+    margin: 1em;
+}
 /* Overall Spacing*/
 * {
     margin: 0;
@@ -161,6 +165,22 @@ main > img {
     background-color:var(--french-rose) ;
     color: var(--ultra-pink);
     object-fit: cover;
+}
+
+/* Long Form Text Content (Blogs and Project Outlines) */
+
+.longformText{
+    background-color: var(--misty-rose);
+    border-style:groove;
+    border-color: var(--slate-gray);
+
+}
+.longformImage{
+    width: 100%;
+    height: auto;
+    border-style:groove;
+    border-color: var(--slate-gray);
+    margin: auto;
 }
 
 /* Call to Action */
