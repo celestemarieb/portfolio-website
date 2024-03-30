@@ -1,14 +1,14 @@
 ## Overview 
 
-## Portfolio website is published here: 
+# Portfolio website is published here: 
 
 https://celestemarieb.github.io/portfolio-website/
 
-## Github repo: 
+# Github repository: 
 
 https://github.com/celestemarieb/portfolio-website
 
-## Description 
+# Description 
 
 A personal portfolio highlighting: 
 - blog posts 
@@ -18,11 +18,15 @@ A personal portfolio highlighting:
 
 The portfolio is a publicly accessible website that can be viewed on all devices and screen-sizes. 
 
-### Purpose
+# Purpose
 
-This portfolio is designed to introduce myself and my interests as well as highlight relevant skills and experience
+This portfolio is designed to introduce myself and my interests as well as highlight relevant skills and experience. 
 
-### Features 
+# Target Audience 
+
+This website is intended to showcase my skills, experience and interests to like-minded folk who may have similar interests or a need for my skills. 
+
+## Features 
 
 # Responsive 
 
@@ -42,7 +46,12 @@ gallery
 
 buttons / links 
 
-### Sitemap 
+## Design 
+
+# Colour Palette 
+
+
+# Sitemaps 
 
 The website includes the following html pages. 
 
@@ -62,21 +71,16 @@ I include a diagram below illustrating the relationship between each pages and t
 
 ![Portfolio Sitemap](./docs/portfolio.sitemap.png "Portfolio Sitemap")
 
-### Wireframes 
+# Wireframes 
 
 
-
-### Target Audience 
-
-This website is intended to showcase my skills, experience and interests to like-minded folk. 
-
-### Tech Stack 
+## Tech Stack 
 
 HTML
 CSS, flexbox
 Deployment Platform : Github Pages
 
-### Tools 
+# Tools 
 
 VSCode 
 Figma (design including wireframing)
