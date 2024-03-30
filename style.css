@@ -27,13 +27,16 @@ h2 {
 h3 {
     font-size: small;
 }
+
 h4 {
     font-size: x-small;
 }
+
 blockquote {
     font-size: small;
     margin: 1em;
 }
+
 /* Overall Spacing*/
 * {
     margin: 0;
@@ -167,7 +170,7 @@ main > img {
     object-fit: cover;
 }
 
-/* Long Form Text Content (Blogs and Project Outlines) */
+/* Long Form Text Content (Blogs and Projects) */
 
 .longformText{
     background-color: var(--misty-rose);
@@ -231,6 +234,7 @@ form {
 }
 
 /* Footer */
+
 footer {
     background-color: var(--misty-rose);
     height: 12dvh;
