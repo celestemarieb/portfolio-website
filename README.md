@@ -270,6 +270,8 @@ The deployed version of the general layout for mobile/smaller screen sizes with 
 
 [Mobile General Layout](./docs/Screenshot_Mobile_Nav_1.png "Screenshot Mobile Layout and Navigation") 
 
+The deployed version of the navigation menu for mobile/smaller screen sizes: 
+
 [Mobile Nav Menu](./docs/Screenshot_Mobile_Nav_2.png "Screenshot Mobile Navigation Menu") 
 
 ## Tech Stack 
@@ -290,7 +292,5 @@ Coloors (palette construction)
 ## Attributions 
 
 Images used on the site are from Unsplash and the following creators: 
-
-
 
 Fonts used on the site were designed by Tep Sovichet and Hak Longdey. They are published on Google Fonts and can be found here: https://fonts.google.com/specimen/Kdam+Thmor+Pro. 
