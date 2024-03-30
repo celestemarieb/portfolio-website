@@ -24,13 +24,21 @@ This portfolio is designed to introduce myself and my interests as well as highl
 
 ### Features 
 
+# Responsive 
+
 The website is optimised for use on mobile and desktop. 
+
+# Navigation 
 
 Main pages (Home, About, Work (Projects), Writing, Contact) can be accessed via a navigation bar. 
 
 Each individual blog and project page can access the navigation bar and return to a main page. 
 
-responsive 
+# Galleries 
+
+gallery 
+
+# Calls to Action
 
 buttons / links 
 
@@ -65,7 +73,7 @@ This website is intended to showcase my skills, experience and interests to like
 ### Tech Stack 
 
 HTML
-CSS 
+CSS, flexbox
 Deployment Platform : Github Pages
 
 ### Tools 
