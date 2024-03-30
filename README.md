@@ -146,6 +146,26 @@ Individual blog and project pages are not accessible via the navigation bar.
 
 ### Wireframes 
 
+All wireframes created for this project (a pdf file) are accessible here:![All Wireframes](./docs/Wireframes.pdf "All Portfolio Wireframes") 
+
+#### Mobile Wireframes 
+[Mobile Home](./docs/Wireframe_Mobile_Home.png "Wireframe Mobile Home Page") 
+
+[Mobile Menu](./docs/Wireframe_Mobile_Menu.png "Wireframe Mobile Home Page") 
+
+[Mobile About](./docs/Wireframe_Mobile_About.png "Wireframe Mobile Home Page") 
+
+[Mobile Contact](./docs/Wireframe_Mobile_Contact.png "Wireframe Mobile Home Page") 
+
+[Mobile Blog](./docs/Wireframe_Mobile_Blog.png "Wireframe Mobile Home Page") 
+
+[Mobile Blog Post](./docs/Wireframe_Mobile_Blog_Page.png "Wireframe Mobile Home Page") 
+
+[Mobile Project](./docs/Wireframe_Mobile_Projects.png "Wireframe Mobile Home Page") 
+
+[Mobile Project Post](./docs/Wireframe_Mobile_Project_Page.png "Wireframe Mobile Home Page") 
+
+#### Desktop Wireframes 
 
 ## Tech Stack 
 
