@@ -2,23 +2,41 @@
 
 ## Portfolio website is published here: 
 
+https://celestemarieb.github.io/portfolio-website/
+
 ## Github repo: 
+
+https://github.com/celestemarieb/portfolio-website
 
 ## Description 
 
+A personal portfolio highlighting: 
+- blog posts 
+- information about my skills, experience and interests 
+- recent work 
+- how I can be contacted 
+
+The portfolio is a publicly accessible website that can be viewed on all devices and screen-sizes. 
+
 ### Purpose
 
-This portfolio is designed to introduce myself and my interests to the industry and employers as well as highlight relevant skills and experience
+This portfolio is designed to introduce myself and my interests as well as highlight relevant skills and experience
 
-### Functionality/Features 
+### Features 
 
 The website is optimised for use on mobile and desktop. 
 
-Each page can be accessed from the home page via a navigation bar. 
+Main pages (Home, About, Work (Projects), Writing, Contact) can be accessed via a navigation bar. 
 
-buttons 
+Each individual blog and project page can access the navigation bar and return to a main page. 
+
+responsive 
+
+buttons / links 
 
 ### Sitemap 
+
+The website includes the following html pages. 
 
 Home
 - About  
@@ -32,6 +50,8 @@ Home
     - Blog #5
 - Contact 
 
+I include a diagram below illustrating the relationship between each pages and the function of a navigation bar included in the site. 
+
 ![Portfolio Sitemap](./docs/portfolio.sitemap.png "Portfolio Sitemap")
 
 ### Wireframes 
@@ -40,12 +60,23 @@ Home
 
 ### Target Audience 
 
-This website is designed to showcase my skills, experience and interests. 
+This website is intended to showcase my skills, experience and interests to like-minded folk. 
 
-### Tech Stack (e.g. html, css, deployment platform, etc)
+### Tech Stack 
 
 HTML
 CSS 
 Deployment Platform : Github Pages
 
-/discuss not using javascript  
+### Tools 
+
+VSCode 
+Figma (design including wireframing)
+Github (version control)
+Github Pages (deployment and hosting)
+Github Projects (project management)
+Coloors (palette construction)
+
+## Attributions 
+
+Images used on the site are from Unsplash and the following creators: 
