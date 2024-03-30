@@ -16,7 +16,7 @@ A personal portfolio highlighting:
 - recent work 
 - how I can be contacted 
 
-The portfolio is a publicly accessible website that can be viewed on all devices and screen-sizes. 
+The portfolio is a publicly accessible website with a design responsive to the needs of different screen-sizes and devices. 
 
 ### Purpose
 
