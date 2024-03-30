@@ -293,4 +293,12 @@ Coloors (palette construction)
 
 Images used on the site are from Unsplash and the following creators: 
 
-Fonts used on the site were designed by Tep Sovichet and Hak Longdey. They are published on Google Fonts and can be found here: https://fonts.google.com/specimen/Kdam+Thmor+Pro. 
+Damir Omerović on Unsplash https://unsplash.com/@odamire
+Jon Flobrant on Unsplash https://unsplash.com/@jonflobrant 
+Danae Paparis on Unsplash https://unsplash.com/@danaepaparis
+JJ Ying on Unsplash https://unsplash.com/@jjying 
+Josep Martins on Unsplash https://unsplash.com/@josepmartins 
+
+Fonts used on the site were designed by Tep Sovichet and Hak Longdey. 
+
+They are published on Google Fonts and can be found here: https://fonts.google.com/specimen/Kdam+Thmor+Pro. 
