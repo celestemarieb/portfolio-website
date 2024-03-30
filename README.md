@@ -149,23 +149,37 @@ Individual blog and project pages are not accessible via the navigation bar.
 All wireframes created for this project (a pdf file) are accessible here:![All Wireframes](./docs/Wireframes.pdf "All Portfolio Wireframes") 
 
 #### Mobile Wireframes 
-[Mobile Home](./docs/Wireframe_Mobile_Home.png "Wireframe Mobile Home Page") 
+[Mobile Home](./docs/Wireframe_Mobile_Home.png "Wireframe Mobile Home") 
 
-[Mobile Menu](./docs/Wireframe_Mobile_Menu.png "Wireframe Mobile Home Page") 
+[Mobile Menu](./docs/Wireframe_Mobile_Menu.png "Wireframe Mobile Menu") 
 
-[Mobile About](./docs/Wireframe_Mobile_About.png "Wireframe Mobile Home Page") 
+[Mobile About](./docs/Wireframe_Mobile_About.png "Wireframe Mobile About") 
 
-[Mobile Contact](./docs/Wireframe_Mobile_Contact.png "Wireframe Mobile Home Page") 
+[Mobile Contact](./docs/Wireframe_Mobile_Contact.png "Wireframe Mobile Contact") 
 
-[Mobile Blog](./docs/Wireframe_Mobile_Blog.png "Wireframe Mobile Home Page") 
+[Mobile Blog](./docs/Wireframe_Mobile_Blog.png "Wireframe Mobile Blog") 
 
-[Mobile Blog Post](./docs/Wireframe_Mobile_Blog_Page.png "Wireframe Mobile Home Page") 
+[Mobile Blog Post](./docs/Wireframe_Mobile_Blog_Page.png "Wireframe Blog Post") 
 
-[Mobile Project](./docs/Wireframe_Mobile_Projects.png "Wireframe Mobile Home Page") 
+[Mobile Projects](./docs/Wireframe_Mobile_Projects.png "Wireframe Mobile Projects") 
 
-[Mobile Project Post](./docs/Wireframe_Mobile_Project_Page.png "Wireframe Mobile Home Page") 
+[Mobile Project Post](./docs/Wireframe_Mobile_Project_Page.png "Wireframe Mobile Project Post") 
 
 #### Desktop Wireframes 
+
+[Desktop Home](./docs/Wireframe_Desktop_Home.png "Wireframe Desktop Home") 
+
+[Desktop About](./docs/Wireframe_Desktop_About.png "Wireframe Desktop About") 
+
+[Desktop Contact](./docs/Wireframe_Desktop_Contact.png "Wireframe Desktop Contact") 
+
+[Desktop Blog](./docs/Wireframe_Desktop_Blog.png "Wireframe Desktop Blog") 
+
+[Desktop Blog Post](./docs/Wireframe_Desktop_Blog_Post.png "Wireframe Desktop Blog Post") 
+
+[Desktop Project](./docs/Wireframe_Desktop_Projects.png "Wireframe Desktop Projects") 
+
+[Desktop Project Post](./docs/Wireframe_Desktop_Project_Page.png "Wireframe Project Post") 
 
 ## Tech Stack 
 
