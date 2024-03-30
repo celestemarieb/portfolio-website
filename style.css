@@ -1,3 +1,4 @@
+/* Color Palette */
 /* CSS HEX */
 :root {
 --slate-gray: #6b717eff;
@@ -15,7 +16,6 @@
   }  
 
 /* Text Styles */ 
-
 h1 {
     font-size: large;
 }
@@ -37,12 +37,13 @@ blockquote {
     margin: 1em;
 }
 
-/* Overall Spacing*/
+/* Spacing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Body */
 body {
     display: flex;
@@ -54,6 +55,7 @@ body {
     font-size: medium;
     line-height: 1.5;
 }
+
 /* Header */
 .header {
     background-color: var(--alabaster);
@@ -170,7 +172,7 @@ main > img {
     object-fit: cover;
 }
 
-/* Long Form Text Content (Blogs and Projects) */
+/* Long Form Text Content */
 
 .longformText{
     background-color: var(--misty-rose);
@@ -187,7 +189,6 @@ main > img {
 }
 
 /* Call to Action */
-
 .calltoaction {
     display: flex;
     justify-content: center;
@@ -198,6 +199,7 @@ main > img {
     width: 50%;
 }
 
+/* Responsive/Mobile Call to Action */
 @media screen and (max-width: 600px) {
     .calltoaction {
         display: flex;
@@ -209,13 +211,11 @@ main > img {
 
 
 /* Form */
-
 form {
     width: 100%;
 }
 
 /* Buttons */
-
 .button {
     border-radius: 0em;
     border: 1px solid;
@@ -234,7 +234,6 @@ form {
 }
 
 /* Footer */
-
 footer {
     background-color: var(--misty-rose);
     height: 12dvh;
