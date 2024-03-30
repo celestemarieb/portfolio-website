@@ -136,7 +136,7 @@ All pages can access the home page but not all pages can access one another.
 
 From any page the logo on the top left can be clicked to return to the home page. 
 
-From any page the navigation bar can be accessed to return to any page on the second tier (About, Contact, Blog (Writing), Projects (Writing))
+From any page the navigation bar can be accessed to return to any page on the second tier (About, Contact, Blog (Writing), Projects (Writing)). I will refer to these pages as 'main' pages. 
 
 Individual blog and project pages (e.g. Blog One, Project One) are only accessible via the blog and project pages respectively. 
 
@@ -149,37 +149,128 @@ Individual blog and project pages are not accessible via the navigation bar.
 All wireframes created for this project (a pdf file) are accessible here:![All Wireframes](./docs/Wireframes.pdf "All Portfolio Wireframes") 
 
 #### Mobile Wireframes 
+
+All screens under 600px in width viewing the site will have access to the mobile/responsive experience as outlined below. 
+
 [Mobile Home](./docs/Wireframe_Mobile_Home.png "Wireframe Mobile Home") 
 
-[Mobile Menu](./docs/Wireframe_Mobile_Menu.png "Wireframe Mobile Menu") 
+The Home page features a large image, text and large buttons to access internal and exernal links. These extend across the full width of the screen. 
+
+In the top right corner the navigation bar/menu can be accessed via the plus icon. 
+
+[Mobile Menu](./docs/Wireframe_Mobile_Menu.png "Wireframe Mobile Navigation")
+
+The navigation bar/menu slides into view when selecting the plus icon. It allows the user to access any main page. It can be closed by reselecting the icon. The menu extends across the full width of the screen. 
 
 [Mobile About](./docs/Wireframe_Mobile_About.png "Wireframe Mobile About") 
 
+This page can be accessed via the navigation bar/menu. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features long form text and large buttons to download a resume and send an email. These extend across the full width of the screen. 
+
 [Mobile Contact](./docs/Wireframe_Mobile_Contact.png "Wireframe Mobile Contact") 
 
-[Mobile Blog](./docs/Wireframe_Mobile_Blog.png "Wireframe Mobile Blog") 
+This page can be accessed via the navigation bar/menu. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features text and large buttons to send an email, view a github profile and view a linkedin profile. These extend across the full width of the screen. 
+
+[Mobile Blog](./docs/Wireframe_Mobile_Blog.png "Wireframe Mobile Blog")
+
+This page can be accessed via the navigation bar/menu. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features cards previewing blog posts and includes large buttons to send an email or visit an external link. These extend across the full width of the screen. 
+
+Each card incudes a button(link) to access the blog post. 
+
+The cards are stacked vertically in a single column. 
 
 [Mobile Blog Post](./docs/Wireframe_Mobile_Blog_Page.png "Wireframe Blog Post") 
 
+This page can be accessed via the blog page. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features an image, long form text and large buttons to send an email or visit an external link. These extend across the full width of the screen. 
+
 [Mobile Projects](./docs/Wireframe_Mobile_Projects.png "Wireframe Mobile Projects") 
+
+This page can be accessed via the navigation bar/menu. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features cards previewing projects and includes large buttons to visit a external links. These extend across the full width of the screen. 
+
+Each card incudes a button(link) to access the individual project page. 
+
+The cards are stacked vertically in a single column. 
 
 [Mobile Project Post](./docs/Wireframe_Mobile_Project_Page.png "Wireframe Mobile Project Post") 
 
+This page can be accessed via the projects page. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features an image, long form text and large buttons to visit external links. These extend across the full width of the screen. 
+
 #### Desktop Wireframes 
+
+All screens over 600px in width viewing the site will have access to the mobile/responsive experience as outlined below. 
 
 [Desktop Home](./docs/Wireframe_Desktop_Home.png "Wireframe Desktop Home") 
 
+The Home page features a large image, text and large buttons to access internal and exernal links. 
+
+The navigation bar is placed in the top right corner. The navigation bar is a horizontal list of hyperlinked text. From this bar all main pages can be accessed. 
+
 [Desktop About](./docs/Wireframe_Desktop_About.png "Wireframe Desktop About") 
+
+This page can be accessed via the navigation bar. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features long form text and large buttons to download a resume and send an email. 
 
 [Desktop Contact](./docs/Wireframe_Desktop_Contact.png "Wireframe Desktop Contact") 
 
-[Desktop Blog](./docs/Wireframe_Desktop_Blog.png "Wireframe Desktop Blog") 
+This page can be accessed via the navigation bar. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features text and large buttons to send an email, view a github profile and view a linkedin profile. 
+
+[Desktop Blog](./docs/Wireframe_Desktop_Blog.png "Wireframe Desktop Blog")
+
+This page can be accessed via the navigation bar. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features cards previewing blog posts and includes large buttons to send an email or visit an external link. 
+
+Each card incudes a button(link) to access the blog post. 
+
+The cards are stacked vertically in two columns.  
 
 [Desktop Blog Post](./docs/Wireframe_Desktop_Blog_Post.png "Wireframe Desktop Blog Post") 
 
+This page can be accessed via the blog page. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features an image, long form text and large buttons to send an email or visit an external link. The image extends across the full width of the screen. 
+
 [Desktop Project](./docs/Wireframe_Desktop_Projects.png "Wireframe Desktop Projects") 
 
+This page can be accessed via the navigation bar/menu. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features cards previewing projects and includes large buttons to visit a external links. 
+
+Each card includes a button(link) to access the individual project page. 
+
+The cards are stacked vertically in two columns. 
+
 [Desktop Project Post](./docs/Wireframe_Desktop_Project_Page.png "Wireframe Project Post") 
+
+This page can be accessed via the projects page. The user can return to the home page by clicking the logo in the top left corner. 
+
+It features an image, long form text and large buttons to visit external links. The image extends across the full width of the screen. 
+
+### Screenshots 
+
+The deployed version of the general layout for desktop with navigation bar: 
+
+[Desktop General Layout](./docs/Screenshot%20_Desktop_Nav.png "Screenshot Desktop Layout and Navigation") 
+
+The deployed version of the general layout for mobile/smaller screen sizes with navigation icon: 
+
+[Mobile General Layout](./docs/Screenshot_Mobile_Nav_1.png "Screenshot Mobile Layout and Navigation") 
+
+[Mobile Nav Menu](./docs/Screenshot_Mobile_Nav_2.png "Screenshot Mobile Navigation Menu") 
 
 ## Tech Stack 
 
